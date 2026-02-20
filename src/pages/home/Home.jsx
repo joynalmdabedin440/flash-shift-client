@@ -1,10 +1,14 @@
 import React from 'react'
 import { Banner } from './Banner'
+import ServicesSection from './services/ServicesSection'
 
 const Home = () => {
     return (
         <div>
-            <Banner/>
+            <div className=''>
+                <Banner/>
+            </div>
+            <ServicesSection/>
 
         </div>
     )
