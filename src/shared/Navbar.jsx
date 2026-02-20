@@ -1,11 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router'
+import FlashShiftLogo from './FlashShiftLogo'
 
 const Navbar = () => {
 
     const menuItems = <>
-        <li><NavLink to="/submenu1">Submenu 1</NavLink></li>
-        <li><NavLink to="/submenu2">Submenu 2</NavLink></li>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/about">About Us</NavLink></li>
 
     </>
 
@@ -22,7 +23,7 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <FlashShiftLogo/>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
