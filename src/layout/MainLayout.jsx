@@ -6,7 +6,7 @@ import Footer from '../shared/Footer';
 const MainLayout = () => {
     return (
         <div>
-            {/* Navba */}
+            {/* Navbar */}
             <div>
                 <Navbar />
             </div>
